@@ -34,15 +34,6 @@ function Intro() {
   );
 }
 
-// Skill component props
-function Skill(props) {
-  return (
-    <div className="skill" style={{ backgroundColor: props.color }}>
-      <span>{props.skill}</span>
-      <span>{props.emoji}</span>
-    </div>
-  );
-}
 //Skillis Component
 function SkillList() {
   return (
@@ -54,6 +45,17 @@ function SkillList() {
     </div>
   );
 }
+
+// Skill component props
+function Skill(props) {
+  return (
+    <div className="skill" style={{ backgroundColor: props.color }}>
+      <span>{props.skill}</span>
+      <span>{props.emoji}</span>
+    </div>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
