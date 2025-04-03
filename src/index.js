@@ -21,10 +21,10 @@ function Avatar() {
 
 // Details Component
 function Intro() {
-  const name = "<Apurba Dutta/>";
+  const name = "Apurba Dutta";
   return (
     <div>
-      <h1>{name}</h1>
+      <h1>&lt;{name}/&gt;</h1>
       <p>
         As a student learning React and gaining knowledge in full-stack
         development, when not coding or working on projects, I enjoy playing
